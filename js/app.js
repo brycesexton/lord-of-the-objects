@@ -186,6 +186,8 @@ function leaveTheShire() {
   console.log("6: leaveTheShire");
 
   // assemble the `hobbits` and move them to `rivendell`
+  const hobbitsContainer = document.querySelector('#the-shire ul')
+  document.querySelector('#rivendell').appendChild(hobbitsContainer)
 }
 
 // COMMIT YOUR WORK
